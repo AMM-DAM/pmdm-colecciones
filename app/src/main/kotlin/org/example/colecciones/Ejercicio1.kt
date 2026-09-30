@@ -26,5 +26,24 @@ fun main() {
 
     val usuariosAsociacion = mutableMapOf<String, String>()
 
+    // hay una de series que no tengo. no he hecho ninguna entrega con series?
 
+    val diasPorMes = mapOf(
+        "Enero" to 31, "Febrero" to 28, "Marzo" to 31, "Abril" to 30, "Mayo" to 31, "Junio" to 30,
+        "Julio" to 31, "Agosto" to 31, "Septiembre" to 30, "Octubre" to 31, "Noviembre" to 30,
+        "Diciembre" to 31
+    )
+
+    val menuPorDia = mutableListOf(
+        "Lunes" to "Ensalada, pasta, papas fritas",
+        "Martes" to "Ensalada, pasta, papas fritas",
+        "Miércoles" to "Ensalada, pasta, papas fritas",
+        "Jueves" to "Ensalada, pasta, papas fritas",
+        "Viernes" to "Ensalada, pasta, papas fritas",
+    )
+
+    val keywordsPorVersion = mutableListOf(
+        "33.2" to "var val fun",
+        "34.0" to "var val fun static final"
+    )
 }
